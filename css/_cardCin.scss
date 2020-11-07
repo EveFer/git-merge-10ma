@@ -1,0 +1,25 @@
+
+.card_cin{
+    width: 100%;
+    background-color: $color-dark;
+    border: 2px dotted white;
+    color: $color-white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 10px 15px #888888;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.card_cin:hover{
+    background-color:$color-border;
+    background-image: linear-gradient(to top,hsl(192, 66%, 80%), hsl(192, 47%, 44%), hsl(192, 67%, 44%));
+    color: $color-dark;
+}
+.card_cin:hover img{
+    width: 40%;
+}
+.card_cin img{
+    width: 30%;
+    border-radius: 100%;
+}

@@ -1,0 +1,20 @@
+.profiles {
+    padding: 30px;
+    margin-top: 100px;
+    
+    article.prifle1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FF5733;
+        border-radius: 8px;
+        filter: drop-shadow(8px 8px 20px gray);
+
+        &:hover {
+            background-color: yellow;
+            transform: scale(1.5);
+            transition: 1.5s;
+        }
+
+    }
+}

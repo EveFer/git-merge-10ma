@@ -1,3 +1,20 @@
+.card-fer {
+  border: 1px dashed red;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.card-fer span {
+  font-weight: bold;
+  color: purple;
+}
+
+.card-fer:hover {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
 .card-luis {
   border: 1px;
   border-color: solid red;
@@ -6,5 +23,156 @@
 .card-luis span {
   text-align: center;
   font-family: #000;
+}
+
+.card-hola {
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #008080;
+  background-color: #F5FFFA;
+}
+
+.imgi {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.h4i {
+  padding-bottom: 1%;
+  color: #008080;
+}
+
+.pi {
+  color: #008080;
+}
+
+.btni {
+  margin-left: 25%;
+  margin-bottom: 10%;
+}
+
+.profiles {
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.profiles article.prifle1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FF5733;
+  border-radius: 8px;
+  -webkit-filter: drop-shadow(8px 8px 20px gray);
+          filter: drop-shadow(8px 8px 20px gray);
+}
+
+.profiles article.prifle1:hover {
+  background-color: yellow;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.card_cin {
+  width: 100%;
+  background-color: #1A2330;
+  border: 2px dotted white;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  -webkit-box-shadow: 5px 10px 15px #888888;
+          box-shadow: 5px 10px 15px #888888;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card_cin:hover {
+  background-color: #4CC1D3;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#aae0ee), color-stop(#3b90a5), to(#259dbb));
+  background-image: linear-gradient(to top, #aae0ee, #3b90a5, #259dbb);
+  color: #1A2330;
+}
+
+.card_cin:hover img {
+  width: 40%;
+}
+
+.card_cin img {
+  width: 30%;
+  border-radius: 100%;
+}
+
+.c-card-flip {
+  width: 450px;
+  height: 250px;
+  margin: 20px auto;
+  cursor: pointer;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+}
+
+.c-card-flip__flipper {
+  position: relative;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.c-card-flip__front, .c-card-flip__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 250px;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.c-card-flip__back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background: #ddd;
+}
+
+.c-card-flip__title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  margin: auto;
+}
+
+.c-card-flip:hover .c-card-flip__flipper {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.emma {
+  height: auto;
+  background: -webkit-gradient(linear, left bottom, right top, from(#ff6600), to(#cc00ff));
+  background: linear-gradient(to top right, #ff6600 0%, #cc00ff 100%);
+  color: white;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.emma:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 /*# sourceMappingURL=style.css.map */
