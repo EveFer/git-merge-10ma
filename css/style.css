@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.emma {
+  height: auto;
+  background: -webkit-gradient(linear, left bottom, right top, from(#ff6600), to(#cc00ff));
+  background: linear-gradient(to top right, #ff6600 0%, #cc00ff 100%);
+  color: white;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.emma:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/*# sourceMappingURL=style.css.map */
