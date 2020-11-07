@@ -1,1 +1,17 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.card-fer {
+  border: 1px dashed red;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.card-fer span {
+  font-weight: bold;
+  color: purple;
+}
+
+.card-fer:hover {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+/*# sourceMappingURL=style.css.map */
