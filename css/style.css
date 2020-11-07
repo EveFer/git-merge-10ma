@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.card-hola {
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #008080;
+  background-color: #F5FFFA;
+}
+
+.imgi {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.h4i {
+  padding-bottom: 1%;
+  color: #008080;
+}
+
+.pi {
+  color: #008080;
+}
+
+.btni {
+  margin-left: 25%;
+  margin-bottom: 10%;
+}
+/*# sourceMappingURL=style.css.map */
