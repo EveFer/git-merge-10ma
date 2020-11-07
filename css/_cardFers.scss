@@ -1,0 +1,14 @@
+.card-fer {
+    border: $border;
+    padding: 10px;
+    font-family: $font;
+    text-align: center;
+    span {
+        font-weight: bold;
+        color: $purple;
+    }
+
+    &:hover {
+        transform: scale(0.5);
+    }
+}
