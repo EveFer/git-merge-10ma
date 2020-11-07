@@ -1,11 +1,12 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AIAA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,KAAK;CAiBpB;;AAnBD,AAII,SAJK,CAIL,OAAO,AAAA,QAAQ,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,8BAA8B;CAQzC;;AAlBL,AAYQ,SAZC,CAIL,OAAO,AAAA,QAAQ,AAQV,MAAM,CAAC;EACJ,gBAAgB,EAAE,MAAM;EACxB,SAAS,EAAE,UAAU;EACrB,UAAU,EAAE,IAAI;CACnB",
     "sources": [
         "style.scss",
         "_variables.scss",
         "_mixins.scss",
-        "_cardFers.scss"
+        "_cardFers.scss",
+        "_cardJP.scss"
     ],
     "names": [],
     "file": "style.css"

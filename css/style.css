@@ -1,1 +1,30 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.profiles {
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.profiles article.prifle1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FF5733;
+  border-radius: 8px;
+  -webkit-filter: drop-shadow(8px 8px 20px gray);
+          filter: drop-shadow(8px 8px 20px gray);
+}
+
+.profiles article.prifle1:hover {
+  background-color: yellow;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+/*# sourceMappingURL=style.css.map */
