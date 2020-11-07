@@ -1,0 +1,11 @@
+
+@import 'variables';
+@import 'mixins';
+@import "cardArce";
+
+.card-body{
+    border: 2px solid darkolivegreen;
+    background-color: darkslategrey;
+    width: 30px;
+    height: 30 px;
+}
