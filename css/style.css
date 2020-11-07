@@ -1,2 +1,116 @@
+<<<<<<< HEAD
 
+=======
+.card-fer {
+  border: 1px dashed red;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.card-fer span {
+  font-weight: bold;
+  color: purple;
+}
+
+.card-fer:hover {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+.card_cin {
+  width: 100%;
+  background-color: #1A2330;
+  border: 2px dotted white;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  -webkit-box-shadow: 5px 10px 15px #888888;
+          box-shadow: 5px 10px 15px #888888;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card_cin:hover {
+  background-color: #4CC1D3;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#aae0ee), color-stop(#3b90a5), to(#259dbb));
+  background-image: linear-gradient(to top, #aae0ee, #3b90a5, #259dbb);
+  color: #1A2330;
+}
+
+.card_cin:hover img {
+  width: 40%;
+}
+
+.card_cin img {
+  width: 30%;
+  border-radius: 100%;
+}
+
+.c-card-flip {
+  width: 450px;
+  height: 250px;
+  margin: 20px auto;
+  cursor: pointer;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+}
+
+.c-card-flip__flipper {
+  position: relative;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.c-card-flip__front, .c-card-flip__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 250px;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.c-card-flip__back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background: #ddd;
+}
+
+.c-card-flip__title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  margin: auto;
+}
+
+.c-card-flip:hover .c-card-flip__flipper {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.emma {
+  height: auto;
+  background: -webkit-gradient(linear, left bottom, right top, from(#ff6600), to(#cc00ff));
+  background: linear-gradient(to top right, #ff6600 0%, #cc00ff 100%);
+  color: white;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.emma:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+>>>>>>> master
 /*# sourceMappingURL=style.css.map */
