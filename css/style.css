@@ -1,3 +1,20 @@
+.card-fer {
+  border: 1px dashed red;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.card-fer span {
+  font-weight: bold;
+  color: purple;
+}
+
+.card-fer:hover {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
 .emma {
   height: auto;
   background: -webkit-gradient(linear, left bottom, right top, from(#ff6600), to(#cc00ff));
