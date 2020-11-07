@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAGA,GAAG",
     "sources": [
         "style.scss",
         "_variables.scss",
